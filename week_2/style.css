@@ -1,0 +1,178 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+}
+
+.menu-left {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo-area,
+.nav-item,
+.my-menu-item {
+  padding: 0 20px;
+}
+
+.menu-right {
+  display: flex;
+}
+
+.my-menu-area {
+  display: flex;
+  color: #fff;
+}
+
+.sign-up-area {
+  color: #fff;
+}
+
+.main {
+  padding: 50px;
+}
+
+.main-title-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small-text {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #aaa;
+}
+
+.filter {
+  display: flex;
+}
+
+.filter-item {
+  padding: 0 10px;
+}
+
+.course-title-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-title {
+  font-size: 24px;
+}
+
+.course-more {
+  padding: 8px 15px;
+  color: blue;
+  border-radius: 15px;
+  box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* 카드 */
+.course-list {
+  display: flex;
+}
+
+.course-card {
+  margin-right: 20px;
+  width: 280px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.course-card-title-area {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: red;
+}
+
+.course-card-title-sub {
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+.course-card-title-main {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.course-card-title-badge {
+  background: royalblue;
+  border-radius: 30px;
+  padding: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.course-card-meta-area {
+  display: flex;
+}
+
+.course-card-meta-info {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.course-card-meta-info-count {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.course-card-meta-info-title {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.course-card-play-area {
+  position: absolute;
+  right: 15px;
+  bottom: 18px;
+  text-align: center;
+}
+
+.course-card-play-button {
+  margin-bottom: 10px;
+  width: 65px;
+  height: 65px;
+  background: #fff;
+  border: 5px solid #ddd;
+  border-radius: 50%;
+}
+
+.course-card-play-button::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  position: absolute;
+  left: 28px;
+  top: 28px;
+}
+
+.course-card-progress {
+  font-size: 15px;
+  color: #aaa;
+}
